@@ -1,6 +1,6 @@
 empowerment = 5**2
-division = 4/2 #int
-down_division = 6//2 #float
+division = 4/2 #float
+down_division = 6//2 #int
 
 print(down_division)
 

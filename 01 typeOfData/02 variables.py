@@ -11,7 +11,7 @@ print(a+b+c)
 
 nombre_completo = "yender rodriguez"
 saludo = "hello how are you?, what did you do yesterday?"
-print(f"{nombre} {saludo}")
+print(f"{nombre_completo} {saludo}")
 # del nombre delete some variable
 
 # operators of belongings
