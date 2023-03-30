@@ -12,7 +12,7 @@ anotherArray.pop(2)
 myFruits.remove("pear")
 anotherArray.clear()
 
-myFruits.sort()
+myFruits.sort(reverse=True)
 myFruits.reverse()
 
 

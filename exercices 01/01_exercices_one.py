@@ -23,8 +23,8 @@ dalto_course = 1.5
 deference_between_min_and_dalto=100 - dalto_course / normal_courses_times["min"] * 100
 print(deference_between_min_and_dalto)
 
-deferece_beetween_max_and_dalto = 100 - dalto_course *1000 // normal_courses_times["max"] / 10
-print(deferece_beetween_max_and_dalto)
+deferece_beetween_max_and_dalto = 100 - dalto_course / normal_courses_times["max"] * 100 
+print(round(deferece_beetween_max_and_dalto,2))
 
 deference_between_pro_and_dalto = 100 -dalto_course / normal_courses_times["pro"] *100
 print(deference_between_pro_and_dalto)
@@ -32,11 +32,11 @@ print(deference_between_pro_and_dalto)
 promedio_between_mateial_edited_other_course = 100 - time_with_edit / time_without_edit *100
 print(promedio_between_mateial_edited_other_course)
 
-promedio_between_mateial_edited_current_course = 100 - dalto_course *1000 // dalto_time_without_edit /10
-print(promedio_between_mateial_edited_current_course)
+promedio_between_mateial_edited_current_course = 100 - dalto_course/ dalto_time_without_edit *10
+print(round(promedio_between_mateial_edited_current_course,2))
 
-hour_of_this_course_is_equal= (normal_courses_times["pro"]* 100 //dalto_course / 10 )
-print(hour_of_this_course_is_equal)
+hour_of_this_course_is_equal= (normal_courses_times["pro"] /dalto_course *10 )
+print(round(hour_of_this_course_is_equal,2))
 
 hour_of_other_course_is_equal= (dalto_course* 100 //normal_courses_times["pro"] / 10 )
 print(hour_of_other_course_is_equal)
